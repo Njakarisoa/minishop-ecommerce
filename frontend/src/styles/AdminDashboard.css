@@ -1,0 +1,207 @@
+.admin-dashboard {
+  padding: 20px 0;
+}
+
+.admin-dashboard h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: var(--noir);
+}
+
+.admin-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.tab-btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: var(--radius);
+  background: var(--gris-clair);
+  cursor: pointer;
+  font-weight: 600;
+  transition: all var(--transition);
+}
+
+.tab-btn:hover {
+  background: var(--gris-moyen);
+}
+
+.tab-btn.active {
+  background: var(--bleu-professionnel);
+  color: var(--blanc);
+}
+
+.admin-section {
+  background: var(--blanc);
+  padding: 30px;
+  border-radius: var(--radius);
+  box-shadow: var(--ombre-legere);
+}
+
+.admin-form {
+  margin-bottom: 40px;
+}
+
+.admin-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: var(--noir);
+}
+
+.admin-form form {
+  display: grid;
+  gap: 15px;
+  max-width: 600px;
+}
+
+.admin-form input,
+.admin-form textarea {
+  padding: 12px;
+  border: 1px solid var(--gris-moyen);
+  border-radius: var(--radius);
+  font-family: inherit;
+  font-size: 14px;
+}
+
+.admin-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.admin-list h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: var(--noir);
+}
+
+.produits-admin-grid {
+  display: grid;
+  gap: 15px;
+}
+
+.admin-product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: var(--gris-clair);
+  border-radius: var(--radius);
+  transition: all var(--transition);
+}
+
+.admin-product-item:hover {
+  background: var(--gris-moyen);
+}
+
+.admin-product-info {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.admin-product-name {
+  font-weight: 600;
+}
+
+.admin-product-price {
+  color: var(--bleu-professionnel);
+  font-weight: 600;
+}
+
+.admin-product-stock {
+  color: var(--gris-fonce);
+}
+
+.admin-product-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* Commandes */
+.commandes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.commande-item {
+  padding: 20px;
+  background: var(--gris-clair);
+  border-radius: var(--radius);
+  border-left: 4px solid var(--bleu-professionnel);
+}
+
+.commande-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.commande-id {
+  font-weight: 700;
+  color: var(--noir);
+}
+
+.commande-date {
+  color: var(--gris-fonce);
+  font-size: 14px;
+}
+
+.commande-produits {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.commande-produits span {
+  background: var(--blanc);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.commande-total {
+  font-size: 18px;
+}
+
+.commande-total strong {
+  color: var(--bleu-professionnel);
+}
+
+@media (max-width: 768px) {
+  .admin-section {
+    padding: 20px;
+  }
+
+  .admin-tabs {
+    flex-direction: column;
+  }
+
+  .admin-product-item {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+  }
+
+  .admin-product-info {
+    justify-content: center;
+  }
+
+  .admin-product-actions {
+    justify-content: center;
+  }
+
+  .commande-header {
+    flex-direction: column;
+    gap: 5px;
+  }
+}

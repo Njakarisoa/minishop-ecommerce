@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "nom": "Smartphone Pro Max",
+    "prix": 899.99,
+    "description": "Le smartphone le plus puissant avec un écran OLED 6.7\", appareil photo 108MP, batterie 5000mAh et processeur dernier cri. Idéal pour les professionnels et les passionnés de technologie.",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400",
+    "stock": 15
+  },
+  {
+    "id": "2",
+    "nom": "Casque Audio Premium",
+    "prix": 149.99,
+    "description": "Casque audio sans fil avec réduction de bruit active, autonomie de 40 heures, confort optimal pour une écoute prolongée. Son haute fidélité pour une expérience immersive.",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400",
+    "stock": 30
+  },
+  {
+    "id": "3",
+    "nom": "Montre Connectée Sport",
+    "prix": 249.99,
+    "description": "Montre connectée avec GPS intégré, suivi cardiaque, écran AMOLED, résistance à l'eau 5ATM. Parfaite pour le sport et la vie quotidienne.",
+    "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=400",
+    "stock": 20
+  },
+  {
+    "id": "4",
+    "nom": "Laptop Ultrabook",
+    "prix": 1299.99,
+    "description": "Ordinateur portable ultra-fin avec écran 14\", processeur Intel i7, 16GB RAM, 512GB SSD. Batterie longue durée et design élégant pour une mobilité totale.",
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400",
+    "stock": 10
+  },
+  {
+    "id": "5",
+    "nom": "Tablette Graphique",
+    "prix": 399.99,
+    "description": "Tablette graphique professionnelle avec stylet précis, 8192 niveaux de pression, surface de dessin large. Compatible avec tous les logiciels de création.",
+    "image": "https://images.unsplash.com/photo-1575909812264-69c0e7d2c8b0?w=400",
+    "stock": 8
+  }
+]
