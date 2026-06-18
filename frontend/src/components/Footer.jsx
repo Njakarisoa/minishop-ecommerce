@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useAuth } from '../context/AuthContext';
 import '../styles/Footer.css';
 
 function Footer() {
+  const { isAuthenticated } = useAuth();
+
   return (
     <footer className="footer">
       <div className="footer-container">
@@ -16,8 +19,18 @@ function Footer() {
           <h4>Liens rapides</h4>
           <ul>
             <li><Link to="/">Accueil</Link></li>
-            <li><Link to="/admin">Administration</Link></li>
-            <li><Link to="/panier">Panier</Link></li>
+            {isAuthenticated && (
+              <>
+                <li><Link to="/admin">Administration</Link></li>
+                <li><Link to="/panier">Panier</Link></li>
+              </>
+            )}
+            {!isAuthenticated && (
+              <>
+                <li><Link to="/login">Connexion</Link></li>
+                <li><Link to="/register">Inscription</Link></li>
+              </>
+            )}
           </ul>
         </div>
 
