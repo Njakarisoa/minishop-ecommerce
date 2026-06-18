@@ -4,18 +4,22 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-  padding: 20px;
+  background: linear-gradient(135deg, #f0f0f0 0%, #ececec 50%);
+  padding: 10px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 24px;
+      box-shadow: 20px 20px  60px 60px rgba(15, 13, 13, 0.3);
+
+
 }
 
 .register-card {
-  background: white;
+  background: rgb(134, 132, 132);
   border-radius: 20px;
   padding: 40px;
   width: 100%;
   max-width: 500px;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  box-shadow: 20px 20px 60px 60px rgba(0, 0, 0, 0.3);
   animation: slideUp 0.5s ease;
 }
 
@@ -37,12 +41,12 @@
 
 .register-header h1 {
   font-size: 32px;
-  color: #333;
-  margin-bottom: 8px;
+  color: #000000;
+  padding-bottom: 10px;
 }
 
 .register-header p {
-  color: #666;
+  color: #ffffff;
   font-size: 16px;
 }
 
@@ -70,14 +74,18 @@
   font-size: 14px;
 }
 
+
 .form-group input {
   padding: 12px 16px;
-  border: 2px solid #e0e0e0;
+  border: 2px solid #c0bcbc;
   border-radius: 10px;
   font-size: 15px;
   transition: all 0.3s ease;
-  background: #f8f9fa;
+  background: #ebf3ed;
 }
+
+
+
 
 .form-group input:focus {
   outline: none;
@@ -180,7 +188,7 @@
 
 .btn-register {
   padding: 14px;
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  background: linear-gradient(135deg, #0d0d0e 0%, #422c2c 100%);
   color: white;
   border: none;
   border-radius: 10px;
@@ -193,7 +201,7 @@
 
 .btn-register:hover:not(:disabled) {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(245, 87, 108, 0.4);
+  box-shadow: 0 8px 25px rgba(238, 4, 35, 0.4);
 }
 
 .btn-register:disabled {
@@ -209,12 +217,12 @@
 }
 
 .register-footer p {
-  color: #666;
+  color: #000000;
   font-size: 14px;
 }
 
 .login-link {
-  color: #f5576c;
+  color: #fff2f4;
   font-weight: 600;
   text-decoration: none;
   transition: all 0.3s;
@@ -227,7 +235,7 @@
 
 .register-page-footer {
   margin-top: 30px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.7);
   font-size: 14px;
 }
 

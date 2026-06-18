@@ -83,11 +83,13 @@ function Register() {
                 name="nom"
                 value={formData.nom}
                 onChange={handleChange}
-                placeholder="Dupont"
+                placeholder="NJAKARISOA"
                 required
                 disabled={loading}
               />
             </div>
+
+            <br />
 
             <div className="form-group">
               <label htmlFor="prenom">👤 Prénom</label>
@@ -97,7 +99,7 @@ function Register() {
                 name="prenom"
                 value={formData.prenom}
                 onChange={handleChange}
-                placeholder="Jean"
+                placeholder="Ny Avo Andriantsoa"
                 required
                 disabled={loading}
               />
@@ -209,7 +211,7 @@ function Register() {
           )}
 
           <button type="submit" className="btn-register" disabled={loading}>
-            {loading ? '⏳ Inscription...' : '🚀 Créer mon compte'}
+            {loading ? ' Inscription...' : ' Créer mon compte'}
           </button>
         </form>
 
@@ -224,7 +226,7 @@ function Register() {
       </div>
 
       <div className="register-page-footer">
-        <p>© 2024 MiniShop - Tous droits réservés</p>
+        <p>© 2026 MiniShop - Tous droits réservés</p>
       </div>
     </div>
   );
